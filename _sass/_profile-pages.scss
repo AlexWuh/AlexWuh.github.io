@@ -94,14 +94,6 @@
   margin: 0;
 }
 
-.research-focus--reverse .research-focus__visual {
-  order: 2;
-}
-
-.research-focus--reverse .research-focus__content {
-  order: 1;
-}
-
 @media (max-width: 37.5em) {
   .news-list__item,
   .team-roster__header,
@@ -120,10 +112,5 @@
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 1.5rem 0;
-  }
-
-  .research-focus--reverse .research-focus__visual,
-  .research-focus--reverse .research-focus__content {
-    order: initial;
   }
 }
