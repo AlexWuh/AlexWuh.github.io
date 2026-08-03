@@ -53,6 +53,55 @@
   gap: 1rem;
 }
 
+.research-focuses {
+  margin-top: 0.5rem;
+}
+
+.research-focus {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem 0;
+  border-top: 1px solid $border-color;
+}
+
+.research-focus:first-child {
+  padding-top: 0.5rem;
+  border-top: 0;
+}
+
+.research-focus__visual {
+  aspect-ratio: 8 / 5;
+  overflow: hidden;
+  background: #091014;
+}
+
+.research-focus__visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.research-focus__content h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: $type-size-3;
+}
+
+.research-focus__content p {
+  margin: 0;
+}
+
+.research-focus--reverse .research-focus__visual {
+  order: 2;
+}
+
+.research-focus--reverse .research-focus__content {
+  order: 1;
+}
+
 @media (max-width: 37.5em) {
   .news-list__item,
   .team-roster__header,
@@ -65,5 +114,16 @@
 
   .team-roster__header {
     display: none;
+  }
+
+  .research-focus {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  .research-focus--reverse .research-focus__visual,
+  .research-focus--reverse .research-focus__content {
+    order: initial;
   }
 }
