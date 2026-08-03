@@ -22,4 +22,4 @@ My research develops reliable and efficient methods that combine machine learnin
 
 ## Selected links
 
-See my [publications](/publications/) and [curriculum vitae](/cv/).
+See my [publications]({{ '/publications/' | relative_url }}) and [curriculum vitae]({{ '/cv/' | relative_url }}).
