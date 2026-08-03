@@ -16,7 +16,7 @@ author_profile: true
     </div>
   </section>
 
-  <section class="research-focus">
+  <section class="research-focus research-focus--reverse">
     <div class="research-focus__visual">
       <img src="{{ '/images/research/llm-systems.png' | relative_url }}" alt="Scientific visualization of heterogeneous accelerators connected by an optimized language-model inference pipeline" loading="eager">
     </div>

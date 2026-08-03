@@ -72,16 +72,16 @@
 }
 
 .research-focus__visual {
-  aspect-ratio: 8 / 5;
+  aspect-ratio: 3 / 2;
   overflow: hidden;
-  background: #091014;
+  background: #fff;
 }
 
 .research-focus__visual img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .research-focus__content h2 {
@@ -92,6 +92,14 @@
 
 .research-focus__content p {
   margin: 0;
+}
+
+.research-focus--reverse .research-focus__visual {
+  order: 2;
+}
+
+.research-focus--reverse .research-focus__content {
+  order: 1;
 }
 
 @media (max-width: 37.5em) {
@@ -112,5 +120,10 @@
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 1.5rem 0;
+  }
+
+  .research-focus--reverse .research-focus__visual,
+  .research-focus--reverse .research-focus__content {
+    order: initial;
   }
 }
