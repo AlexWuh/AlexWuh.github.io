@@ -12,8 +12,8 @@ title_separator          : "-"
 name                     : &name "Jianghua Wu"
 description              : &description "Research Scientist working on machine learning, mathematical optimization, and power systems."
 url                      : https://alexwuh.github.io
-baseurl                  : "/JianghuaWu.github.io"
-repository               : "AlexWuh/JianghuaWu.github.io"
+baseurl                  : "/jwu.github.io"
+repository               : "AlexWuh/jwu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
