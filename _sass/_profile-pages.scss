@@ -1,0 +1,61 @@
+/* Compact content patterns for the academic profile pages. */
+
+.news-list {
+  margin: 0 0 1.5rem;
+}
+
+.news-list__item {
+  display: grid;
+  grid-template-columns: minmax(5.5rem, 7rem) minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.7rem 0;
+}
+
+.news-list__item time {
+  color: $muted-text-color;
+  font-size: $type-size-6;
+  font-weight: 600;
+}
+
+.news-list__item p {
+  margin: 0;
+}
+
+.team-roster {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.team-roster__header,
+.team-roster__member {
+  display: grid;
+  grid-template-columns: minmax(10rem, 1fr) minmax(12rem, 1fr);
+  gap: 2rem;
+  padding: 0.85rem 0;
+}
+
+.team-roster__header {
+  border-bottom: 2px solid $text-color;
+  font-weight: 700;
+}
+
+.team-roster__member {
+  border-bottom: 1px solid $border-color;
+}
+
+.team-roster__name {
+  font-weight: 600;
+}
+
+@media (max-width: 37.5em) {
+  .news-list__item,
+  .team-roster__header,
+  .team-roster__member {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .team-roster__header {
+    display: none;
+  }
+}
