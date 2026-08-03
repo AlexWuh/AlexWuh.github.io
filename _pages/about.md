@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "About me"
 excerpt: "About Jianghua Wu"
 author_profile: true
 redirect_from:
@@ -8,18 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Scientist at the [Shenzhen Research Institute of Big Data](https://www.sribd.cn/). I received my Ph.D. in Electrical and Computer Engineering from the University of Connecticut in 2023.
+I am an associate research fellow at the [Shenzhen Research Institute of Big Data](https://www.sribd.cn/). I received my Ph.D. in Electrical and Computer Engineering from the [University of Connecticut](https://uconn.edu/) in 2023. My current research focuses on integer programming, large language model, and power market trading.
 
-My research develops reliable and efficient methods that combine machine learning with mathematical optimization for power-system planning and operations. I am particularly interested in mixed-integer programming, unit commitment, virtual power plants, vehicle-to-grid systems, and large-language-model-assisted mathematical modeling.
+## Theory Meets Practice
+
+> Theory is when you know everything, but nothing works. Practice is when everything works, but nobody knows why. In this lab, we combine theory and practice: nothing works and nobody knows why.
 
 ## News
 
 <div class="news-list">
-  <div class="news-list__item"><time>Mar. 2026</time><p>Our paper, "Enhanced Non-Intrusive Load Monitoring through Tensor-Based Encoding and Involution Networks," was published in <strong>IEEE Internet of Things Journal</strong>.</p></div>
-  <div class="news-list__item"><time>2026</time><p>Our paper, "A Decomposition-Based Learn-to-Optimize Approach with Feasibility Layer Assistance for Sub-Hourly Unit Commitment," was published in <strong>Electric Power Systems Research</strong>.</p></div>
-  <div class="news-list__item"><time>Nov. 2025</time><p>I presented "Multiple Solution Strategies for Large-Scale Security-Constrained Unit Commitment" at the Mathematical Optimization Workshop of the Operations Research Society of China in Fuzhou.</p></div>
-  <div class="news-list__item"><time>2025</time><p>Our paper, "Hierarchical Optimization for Cross-Regional Planning and Scheduling of Hydrogen Energy Storage Systems Considering Wind Uncertainty," was published in the <strong>Journal of Energy Storage</strong>.</p></div>
-  <div class="news-list__item"><time>2025</time><p>Our paper, "When GNNs Meet Symmetry in ILPs: An Orbit-Based Feature Augmentation Approach," was accepted by <strong>ICLR 2025</strong>.</p></div>
+  <div class="news-list__item"><time>May 14, 2026</time><p>Our paper, "<a href="https://doi.org/10.1016/j.epsr.2026.113248">A Decomposition-Based Learn-to-Optimize Approach with Feasibility Layer Assistance for Sub-Hourly Unit Commitment</a>," was published online in <strong>Electric Power Systems Research</strong>.</p></div>
+  <div class="news-list__item"><time>Mar. 10, 2026</time><p>Our paper, "<a href="https://doi.org/10.1109/JIOT.2026.3672708">Enhanced Nonintrusive Load Monitoring Through Tensor-Based Encoding and Involution Networks</a>," was published in <strong>IEEE Internet of Things Journal</strong>.</p></div>
 </div>
-
-See my [Google Scholar](https://scholar.google.com/citations?user=feiMRGEAAAAJ&hl=en), [publications]({{ '/publications/' | relative_url }}), and [curriculum vitae]({{ '/cv/' | relative_url }}).
