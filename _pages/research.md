@@ -18,7 +18,7 @@ author_profile: true
 
   <section class="research-focus research-focus--reverse">
     <div class="research-focus__visual">
-      <img src="{{ '/images/research/llm-systems.png' | relative_url }}" alt="Scientific visualization of heterogeneous accelerators connected by an optimized language-model inference pipeline" loading="lazy">
+      <img src="{{ '/images/research/llm-systems.png' | relative_url }}" alt="Scientific visualization of heterogeneous accelerators connected by an optimized language-model inference pipeline" loading="eager">
     </div>
     <div class="research-focus__content">
       <h2>Large Language Model Systems</h2>
@@ -28,7 +28,7 @@ author_profile: true
 
   <section class="research-focus">
     <div class="research-focus__visual">
-      <img src="{{ '/images/research/power-market.png' | relative_url }}" alt="Scientific visualization of a power network, market signals, forecasts, and algorithmic trading decisions" loading="lazy">
+      <img src="{{ '/images/research/power-market.png' | relative_url }}" alt="Scientific visualization of a power network, market signals, forecasts, and algorithmic trading decisions" loading="eager">
     </div>
     <div class="research-focus__content">
       <h2>Power Market Trading</h2>
