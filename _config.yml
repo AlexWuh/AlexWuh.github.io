@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jianghua Wu"
 title_separator          : "-"
 name                     : &name "Jianghua Wu"
-description              : &description "Research Scientist working on machine learning, mathematical optimization, and power systems."
+description              : &description "Research Scientist working on mathematical optimization, large language model, and power market."
 url                      : https://alexwuh.github.io
 baseurl                  : ""
 repository               : "AlexWuh/AlexWuh.github.io"
@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Jianghua Wu"
   avatar           : "profile.png"
-  bio              : "Research Scientist at the Shenzhen Research Institute of Big Data"
+  bio              : "Associate Researcher <br> Shenzhen Research Institute of Big Data"
   location         : "Shenzhen, China"
-  employer         : "Shenzhen Research Institute of Big Data"
+  employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=feiMRGEAAAAJ&hl=en"
   email            : "wujianghua@sribd.cn"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :  "https://www.researchgate.net/profile/Jianghua-Wu-2"
   uri              :
   bitbucket        :
   codepen          :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            :
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-1394-6618"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
