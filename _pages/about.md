@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "About Me"
 excerpt: "About Jianghua Wu"
 author_profile: true
 redirect_from:
