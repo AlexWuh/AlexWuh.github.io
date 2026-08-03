@@ -47,10 +47,18 @@
   font-weight: 600;
 }
 
+.team-roster--alumni .team-roster__header,
+.team-roster--alumni .team-roster__member {
+  grid-template-columns: minmax(7rem, 0.9fr) minmax(6rem, 0.7fr) minmax(11rem, 1.5fr) minmax(8rem, 1fr);
+  gap: 1rem;
+}
+
 @media (max-width: 37.5em) {
   .news-list__item,
   .team-roster__header,
-  .team-roster__member {
+  .team-roster__member,
+  .team-roster--alumni .team-roster__header,
+  .team-roster--alumni .team-roster__member {
     grid-template-columns: 1fr;
     gap: 0.25rem;
   }
